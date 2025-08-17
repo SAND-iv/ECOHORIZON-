@@ -69,9 +69,3 @@ EcoHorizon embraces a clean and eco-friendly design using:
 * Earth tones (greens, blues, beige)
 * Modern UI elements (cards, grids, responsive layout)
 * A **fixed navigation bar** and informative footer
-
----
-
-👉 Would you like me to **generate this as a `README.md` file** ready to upload, or do you want to copy-paste it manually into GitHub’s description section?
-
-
