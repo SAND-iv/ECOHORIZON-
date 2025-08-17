@@ -35,8 +35,6 @@ EcoHorizon delivers a mix of educational content and interactive features, inclu
 
 ## ⚙️ Running the Project
 
-🌐 **Live Demo (example link):** [EcoHorizon](https://your-username.github.io/ECOHORIZON/)
-
 To run locally:
 
 ```bash
@@ -86,3 +84,4 @@ EcoHorizon embraces a clean and eco-friendly design using:
 ---
 
 👉 Would you like me to **generate this as a `README.md` file** ready to upload, or do you want to copy-paste it manually into GitHub’s description section?
+
