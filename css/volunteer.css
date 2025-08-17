@@ -1,0 +1,87 @@
+/* Video Styles */
+
+.volunteer_video {
+  width: 100%;
+  max-height: 500px;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.volunteer_video video {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Sort Section */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 19px 0;
+}
+
+.title {
+  font-size: 28px; /* Larger title */
+  font-weight: bold;
+}
+
+/* Dropdown Styles */
+.sort-button {
+  position: relative;
+  cursor: pointer;
+  margin: 100 auto;
+  margin-top: 18px;;
+  margin-right: 1rem;
+  padding: 20px;
+  background-color: #004d40;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+/* Volunteer Card Styles */
+.volunteer-card {
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  margin: 15px; /* Space between cards */
+  padding: 15px; /* Inner padding */
+  transition: transform 0.3s;
+}
+
+.volunteer-card:hover {
+  transform: translateY(-10px); /* Lift effect on hover */
+}
+
+.volunteer-card img {
+  width: 100%;
+  max-width: 250px; /* Increased max-width */
+  border-radius: 10px;
+}
+
+/* Button Styles */
+.button {
+  display: inline-block;
+  background: #004d40;
+  color: #fff;
+  padding: 12px 25px; /* Larger buttons */
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background 0.3s;
+}
+
+.button:hover {
+  background: #00695c; /* Darken on hover */
+}
+
+.Programs {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  padding-left: 1rem;
+}

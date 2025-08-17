@@ -1,0 +1,124 @@
+      /* Reset and Base Styles */
+      * {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+      }
+
+      html, body {
+          height: 100%;
+          overflow: hidden; /* Prevent scrolling */
+      }
+
+      body {
+          font-family: Arial, sans-serif;
+          color: #ffffff;
+          background: 
+              linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+              url('images/watertexture.jpg') no-repeat center center/cover;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          text-align: center;
+          line-height: 1.6;
+      }
+
+      .container {
+          width: 90%;
+          max-width: 800px;
+          padding: 2rem;
+          margin: 0 auto;
+      }
+
+      /* Logo Styles */
+      h1 {
+          font-size: 3.5rem;
+          font-weight: 700;
+          color: #a4e0ca;
+          margin-bottom: 1.5rem;
+          text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+      }
+
+      /* Mission Section */
+      .vision-mission-section {
+          background-color: rgba(26, 147, 111, 0.85);
+          padding: 1.5rem;
+          border-radius: 8px;
+          margin: 1.5rem 0;
+          box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+      }
+
+      .section-title {
+          font-size: 1.8rem;
+          margin-bottom: 1rem;
+          color: #ffffff;
+      }
+
+      .section-content {
+          font-size: 1.1rem;
+          color: #e0f0ea;
+      }
+
+      /* Team Section */
+      h5 {
+          font-size: 1.5rem;
+          margin: 1.5rem 0 1rem;
+          color: #a4e0ca;
+      }
+
+      .teammembers {
+          display: grid;
+          grid-template-columns: 1fr 1fr;
+          gap: 1rem;
+          margin-bottom: 2rem;
+      }
+
+      .teammembers p {
+          background-color: rgba(17, 75, 95, 0.8);
+          padding: 0.8rem;
+          border-radius: 4px;
+          font-size: 1rem;
+      }
+
+      /* Loader Styles */
+      .loader {
+          width: 60px;
+          height: 60px;
+          border: 5px solid rgba(255, 255, 255, 0.3);
+          border-top: 5px solid #a4e0ca;
+          border-radius: 50%;
+          margin: 0 auto;
+          animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+          0% { transform: rotate(0deg); }
+          100% { transform: rotate(360deg); }
+      }
+
+      /* Responsive Adjustments */
+      @media (max-width: 600px) {
+          h1 {
+              font-size: 2.5rem;
+          }
+
+          .teammembers {
+              grid-template-columns: 1fr;
+          }
+
+          .section-title {
+              font-size: 1.5rem;
+          }
+
+          .section-content {
+              font-size: 1rem;
+          }
+          
+          .container {
+              padding: 1.5rem;
+          }
+      }
+      .logo{
+        width: 120px;
+        height: 120px;
+      }

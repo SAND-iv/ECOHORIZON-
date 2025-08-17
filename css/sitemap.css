@@ -1,0 +1,155 @@
+
+    /* Main Content */
+    main {
+      padding: 2rem 1rem;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    h1 {
+      font-size: 2.5rem;
+      color: #333;
+      margin-bottom: 2rem;
+      font-weight: bold;
+    }
+
+    .sitemap-container {
+      background: #E6F2E6;
+      border-radius: 12px;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+      padding: 2rem;
+      margin-bottom: 2rem;
+    }
+
+    .sitemap-description {
+      font-size: 1rem;
+      color: #666;
+      margin-bottom: 2rem;
+      line-height: 1.6;
+      text-align: center;
+    }
+
+    /* SVG Sitemap Styles */
+    .sitemap-svg {
+      width: 100%;
+      max-width: 1000px;
+      height: auto;
+      margin: 0 auto;
+      display: block;
+      background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+      border-radius: 12px;
+      border: 2px solid #e2e8f0;
+      padding: 1rem;
+    }
+
+    .sitemap-node {
+      cursor: pointer;
+      transition: all 0.3s ease;
+      outline: none;
+    }
+
+    .sitemap-node:hover .node-rect,
+    .sitemap-node:focus .node-rect {
+      fill: #00E5D0 !important;
+      transform: scale(1.1);
+      transform-origin: center;
+      color: black;
+    }
+
+    .sitemap-node:focus {
+      outline: 3px dashed #00e5d0;
+      outline-offset: 3px;
+      border-radius: 20px;
+    }
+
+    .node-rect {
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .node-text {
+      fill: white;
+      font-size: 12px;
+      font-weight: 600;
+      font-family: Arial, sans-serif;
+      pointer-events: none;
+      user-select: none;
+      transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    }
+
+    .connection-line {
+      stroke: #6b7280;
+      stroke-width: 3;
+      stroke-dasharray: 5, 5;
+      opacity: 0.6;
+    }
+
+    .level-indicator {
+      fill: white;
+      stroke-width: 2;
+    }
+
+    .level-text {
+      font-size: 10px;
+      font-weight: bold;
+      pointer-events: none;
+    }
+
+    .level-0 { fill: #004d40; }
+    .level-1 { fill: #00695c; }
+    .level-2 { fill: #00796b; }
+
+    .legend-bg {
+      fill: white;
+      fill-opacity: 0.95;
+      stroke: #e2e8f0;
+      stroke-width: 1;
+    }
+
+    .legend-title {
+      font-size: 12px;
+      font-weight: bold;
+      fill: #374151;
+    }
+
+    .legend-text {
+      font-size: 10px;
+      fill: #6b7280;
+    }
+
+    .accessibility-info {
+      margin-top: 1rem;
+      font-size: 1rem;
+      padding: 1rem;
+      background: #FDF6ED;
+      border-radius: 8px;
+      color: #666;
+    }
+    
+    /* Responsive Design */
+    @media (max-width: 768px) {
+      nav ul {
+        display: none;
+      }
+
+      h1 {
+        font-size: 2rem;
+      }
+
+      .sitemap-container {
+        padding: 1rem;
+      }
+
+      .sitemap-svg {
+        padding: 0.5rem;
+      }
+    }
+
+    @media (max-width: 480px) {
+      main {
+        padding: 1rem 0.5rem;
+      }
+
+      h1 {
+        font-size: 1.8rem;
+      }
+    }

@@ -1,0 +1,282 @@
+/* Page Editor Specific Styles */
+
+.stud {
+    text-align: center;
+    line-height: 1;
+    background-color: #004D40;
+    color: #fffcfc;
+    margin-top: 0%;
+    padding: 15px 0;
+    font-weight: bold;
+    border-radius: 0;
+    font-size: 1.5rem;
+}
+
+/* links color and hover effect */
+a {
+    color: #00695C;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #00E5D0;
+    text-decoration: underline;
+}
+
+/* Align entire page content to the left */
+.container, main, main *, section, aside, h2, h3 {
+    text-align: left;
+}
+
+/* Container layout */
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 0 20px;
+    gap: 20px;
+}
+
+/* Main content */
+main {
+    flex: 3;
+    padding-right: 30px;
+}
+
+/* Sidebar */
+aside {
+    flex: 1;
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 8px;
+    height: fit-content;
+    position: sticky;
+    top: 20px;
+}
+
+/* Section boxes */
+section {
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Headings */
+h2 {
+    color: #004D40;
+    border-bottom: 2px solid #00E5D0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #00695C;
+    margin-top: 20px;
+}
+
+/* Lists */
+ul:not(.top-level-ul) {
+    padding-left: 20px;
+}
+
+ul li {
+    margin-bottom: 8px;
+
+}
+
+/* Inline code tags */
+code {
+    background-color: #f3f3f3;
+    padding: 2px 4px;
+    border-radius: 3px;
+    font-family: monospace;
+}
+
+/* Sidebar menu */
+.top-level-ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.top-level-ul > li {
+    margin-bottom: 15px;
+}
+
+.top-level-ul ul {
+    padding-left: 20px;
+    list-style-type: disc;
+}
+
+/* References */
+.ref li {
+    list-style: none;
+    padding-bottom: 15px;
+    margin-left: 0;
+}
+
+
+
+/* Back to top button */
+.top {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+
+.top a {
+    padding: 10px 15px;
+    background-color: #004D40;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+.top a:hover {
+    background-color: #00E5D0;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+    }
+
+    main {
+        padding-right: 0;
+        margin-bottom: 30px;
+    }
+
+    aside {
+        position: static;
+    }
+}
+    /* Overrides and adjustments to match your provided stylesheet */
+.container {
+    display: flex;
+    flex-direction: row-reverse; /* sidebar on left */
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    gap: 20px;
+    text-align: left;
+}
+
+main {
+    flex: 3;
+}
+
+aside {
+    flex: 1;
+    background-color: #f4f4f4;
+    padding: 15px;
+    border: 1px solid #ddd;
+    margin-right: 20px;
+    border-radius: 8px;
+    position: sticky;
+    top: 20px;
+    height: fit-content;
+}
+
+section {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-style: none;
+    box-shadow: none; /* keep subtle */
+}
+
+.ref li {
+    list-style: none;
+    padding-bottom: 9px;
+}
+
+aside a {
+    text-decoration: none;
+    color: #007bff;
+}
+
+aside a:hover {
+    text-decoration: underline;
+}
+
+aside li {
+    padding-bottom: 4px;
+}
+
+.top {
+    position: fixed;
+    bottom: 5%;
+    right: 5%;
+}
+
+.top a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 20px;
+    font-size: 12px;
+    font-weight: bold;
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.top a:hover {
+    background-color: #0056b3;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+img {
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+/* Headings adjustments */
+h2 {
+    color: #004d40;
+    border-bottom: 2px solid #00e5d0;
+    padding-bottom: 10px;
+    margin-top: 0;
+}
+
+h3 {
+    color: #00695c;
+    margin-top: 20px;
+}
+
+/* Lists */
+ul {
+    padding-left: 20px;
+    
+}
+
+ul.top-level-ul {
+    padding-left: 0;
+    list-style-type: none;
+    
+}
+aside .toc {
+  list-style: none;
+  padding-left: 0;
+  font-size: 0.95rem;
+}
+
+aside .toc > li {
+  margin-bottom: 5px;
+}
+
+aside .toc li ul {
+  list-style-type: disc;
+  padding-left: 20px;
+  margin-top: 10px;
+}
+
+aside .toc li ul li {
+  font-weight: normal;
+  margin-bottom: 0px;
+}

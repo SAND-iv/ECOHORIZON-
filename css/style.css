@@ -1,0 +1,204 @@
+/* Global Styles */
+body {
+  font-family: "Arial", sans-serif;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  color: #333;
+  background: #eaeaea; /* Slightly lighter background */
+}
+
+/* Header Styles */
+header {
+  background: #004D40; /* Dark blue */
+  padding: 15px 20px;
+  position: sticky; /* Sticky navigation */
+  top: 0;
+  z-index: 1000;
+}
+
+/* Navigation Styles */
+
+.navbar-logo {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo img {
+  height: 60px;
+  width: 60px;
+  margin-right: 5px;
+  margin-left: -25px;
+  margin-bottom: 10px;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  padding: 0.5rem 0;
+}
+
+nav a:hover {
+  color: #00E5D0;
+}
+
+.navbar-profile-icon {
+  margin-left: auto;
+}
+
+.profile-icon {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  text-align: center;
+  font-size: 1.2rem;
+  line-height: 24px;
+  color: white;
+  transition: color 0.3s;
+}
+
+.navbar-profile-icon a:hover .profile-icon {
+  color: #00E5D0;
+}
+
+/* footer */
+/* Footer Styles */
+.footer {
+  background-color: #004D40;
+  color: white;
+  padding: 2rem 1rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.social-icons a {
+  color: white;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  transition: all 0.3s ease;
+}
+
+.social-icons a:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+  transform: translateY(-3px);
+  color: #00E5D0;
+}
+
+.social-icons svg {
+  width: 24px;
+  height: 24px;
+}
+
+.team-members {
+  margin: 1rem 0;
+}
+
+.team-members a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.team-members a:hover {
+  color: #00E5D0;
+}
+
+.footer p {
+  margin: 0.5rem 0;
+  color: rgba(255, 255, 255, 0.8);
+}
+
+.footer a.fname {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer a.fname:hover {
+  color: #00E5D0;
+}
+
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+  gap: 20px;
+}
+
+.navbar-links-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.navbar-links {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-profile {
+  margin-left: auto;
+}
+
+.navbar-profile a {
+  color: white;
+  font-size: 1.5rem;
+  transition: color 0.3s ease;
+}
+
+.navbar-profile a:hover {
+  color: #00E5D0;
+}
+.navbar-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navbar-profile-icon {
+  margin-left: auto;
+}
+
+#profile-icon i {
+  color: white; /* Change this to any color you want */
+  transition: color 0.3s ease;
+}
+
+#profile-icon i:hover {
+  color: #00E5D0;
+}
+.navbar-profile-icon svg {
+  transition: fill 0.3s ease, transform 0.3s ease;
+}
+
+.navbar-profile-icon a:hover svg {
+  fill: #00E5D0;
+  transform: scale(1.1); /* Optional: slight zoom */
+}
+

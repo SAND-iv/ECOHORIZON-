@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Page Editor - Okitha</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/pageEditor_ST2.css" />
+</head>
+<body id="top">
+  <header>
+    <div class="navbar-container">
+      <div class="navbar-logo" style="display: flex; align-items: center; gap: 10px;">
+        <img alt="logo" src="images/logo/logo.png" style="height: 60px; width: 60px; margin-right: 5px; margin-left: -25px; margin-bottom: 10px;">
+        <span style="color: lightseagreen; font-size: 1.5rem; font-weight: 600; letter-spacing: 0.5px; text-transform: uppercase;">EcoHorizon</span>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="home.html">Home</a></li>
+          <li><a href="volunteer.html">Volunteer</a></li>
+          <li><a href="table.html">Table</a></li>
+          <li><a href="feedback.html">Feedback</a></li>
+          <li><a href="sitemap.html">Sitemap</a></li>
+          <li><a href="team.html">Team</a></li>
+        </ul>
+      </nav>
+      <div class="navbar-profile-icon">
+        <a href="profile.html" aria-label="User Profile">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="#ffffff" style="vertical-align: middle;">
+            <path d="M12 12C14.7614 12 17 9.76142 17 7C17 4.23858 14.7614 2 12 2C9.23858 2 7 4.23858 7 7C7 9.76142 9.23858 12 12 12Z"/>
+            <path d="M12 14C7.58172 14 4 17.5817 4 22H20C20 17.5817 16.4183 14 12 14Z"/>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Student Title Section -->
+  <section class="stud">
+    Okitha - Student 2
+  </section>
+
+  <!-- Main Container -->
+  <div class="container">
+    <main>
+      <!-- Content Overview -->
+      <section>
+        <h2>Content Overview</h2>
+        <p>This page is the editor’s page for <strong>Okitha</strong>, Student 2, documenting my role and contributions.</p>
+        <p><strong>Role:</strong> Frontend Developer, Designer</p>
+        <p><strong>Pages Completed:</strong> Home Page, Table Page, Content Page, Page Editor</p>
+      </section>
+
+      <!-- Home Page -->
+      <section>
+        <h2 id="home">Home Page</h2>
+        <h3>Technical Description</h3>
+        <p>The Home Page serves as the central hub of the website. It was built using semantic HTML5 and styled with the global CSS file (`style.css`). The layout uses Flexbox for responsive card-based navigation to content pages. Interactive hover effects (scale and shadow transitions) were added to tiles using CSS. The page includes the website logo, mission statement, and links to all student content pages (`content_ST1.html` to `content_ST4.html`). The navigation bar is fixed at the top for consistent access.</p>
+        <h3>Accessibility</h3>
+        <p>All images have descriptive alt text. The card links are keyboard-navigable and include ARIA labels. Color contrast meets WCAG 2.1 AA standards.</p>
+        <h3>Link to the validation page</h3>
+        <p><a href="validation_ST2.html" target="_blank">Validation for Home Page</a></p>
+        <h3>Link to the page</h3>
+        <p><a href="home.html" target="_blank">View Home Page</a></p>
+      </section>
+
+      <!-- Table Page -->
+      <section>
+        <h2 id="table">Table Page</h2>
+        <h3>Technical Description</h3>
+          <p>
+          The Table Page features a responsive, themed table with <strong>8 rows and 5 columns</strong>, 
+          including country flags, emissions data, renewable energy percentages, policy scores, 
+          and progress bars for 2030 targets. It uses <code>rowspan</code>/<code>colspan</code> 
+          for visual merging (progress bars) and CSS zebra striping for readability...
+          </p>
+        <h3>Accessibility</h3>
+        <p>Table headers use `scope="col"`/`scope="row"`. All icons have ARIA labels, and the table includes a descriptive caption.</p>
+        <h3>Link to the validation page</h3>
+        <p><a href="validation_ST2.html" target="_blank">Validation for Table Page</a></p>
+        <h3>Link to the page</h3>
+        <p><a href="table.html" target="_blank">View Table Page</a></p>
+      </section>
+
+      <!-- Content Page -->
+      <section>
+        <h2 id="content">Content Page</h2>
+        <h3>Technical Description</h3>
+        <p>The Content Page (`content_ST2.html`) includes internal anchor links for section navigation and a fixed "Go to Top" button (positioned with CSS). Layout uses Flexbox for responsiveness. Four themed images scale proportionally with percentage-based widths. Sections are divided with semantic `article` tags and hierarchical headings.</p>
+        <h3>Accessibility</h3>
+        <p>Images have alt text, and the "Go to Top" button is keyboard-focusable. Heading hierarchy ensures screen reader compatibility.</p>
+        <h3>Link to the validation page</h3>
+        <p><a href="validation_ST2.html" target="_blank">Validation for Content Page</a></p>
+        <h3>Link to the page</h3>
+        <p><a href="content_ST2.html" target="_blank">View Content Page</a></p>
+      </section>
+
+      <!-- Challenges -->
+      <section>
+        <h2 id="challenges">Challenges and Lessons Learned</h2>
+        <ul>
+          <li>Balancing global CSS with page-specific styles required careful specificity management.</li>
+          <li>Ensuring table responsiveness without horizontal scrolling was solved with `overflow-x: auto`.</li>
+          <li>Learned to optimize SVG icons for performance and accessibility.</li>
+        </ul>
+      </section>
+
+      <!-- Compliance -->
+      <section>
+        <h2 id="compliance">Compliance</h2>
+        <p>All pages validate without errors via W3C validators. Design follows WCAG 2.1 AA for contrast and keyboard navigation. Images are royalty-free with proper attribution. Complies with Janet regulations for ethical web practices.</p>
+      </section>
+
+      <!-- References -->
+      <section>
+        <h2 id="references">References</h2>
+        <ul class="ref">
+          <li> 
+            <a href="https://www.w3schools.com" target="_blank">
+              W3Schools (2025)
+            </a><i>HTML & CSS Tutorials</i>.(Accessed:02 July 2025)
+          </li>
+          <li>
+            <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout" target="_blank">
+              MDN Web Docs (2025)
+            </a><i>CSS Grid</i>.(Accessed:29 June 2025)
+          </li>
+          <li>
+            <a href="https://unsplash.com" target="_blank">
+              Unsplash (2025)
+            </a> (Accessed:06 July 2025)
+          </li>
+          <li> 
+              <a href="https://www.istockphoto.com/" target="_blank">istockphoto.com (2024)</a> 
+              (Accessed:04 July 2025)
+            </li>
+          <li>
+            <a href="https://www.flagcolorcodes.com/" target="_blank">
+              FlagColorCodes.com (2025)
+            </a> (Accessed:06 July 2025)
+          </li>
+          <li>Duckett, J., 2011. <i>HTML and CSS: Design and Build Websites.</i> John Wiley & Sons, Indianapolis.</li>
+          <li>
+            <p>University of Westminster, 2025. Web Design and Development Lecture Notes. Available at: Blackboard.</p> 
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <aside>
+      <h3>Core Pages Developed</h3>
+      <ul class="toc">
+        <li>Student 1
+        <ul>
+            <li><a href="splash.html">Splash Page</a></li>
+            <li><a href="volunteer.html">Volunteer Page</a></li>
+            <li><a href="content_ST1.html">Content st1 Page</a></li>
+        </ul>
+        </li>
+        <li>Student 2
+        <ul>
+            <li><a href="home.html">Home Page</a></li>
+            <li><a href="table.html">Table Page</a></li>
+            <li><a href="content_ST2.html">Content st2 Page</a></li>
+        </ul>
+        </li>
+        <li>Student 3
+        <ul>
+            <li><a href="feedback.html">Feedback Page</a></li>
+            <li><a href="team.html">Team Page</a></li>
+            <li><a href="content_ST3.html">Content st3 Page</a></li>
+        </ul>
+        </li>
+        <li>Student 4
+        <ul>
+            <li><a href="profile.html">Profile Page</a></li>
+            <li><a href="sitemap.html">Sitemap Page</a></li>
+            <li><a href="content_ST4.html">Content st4 Page</a></li>
+        </ul>
+        </li>
+    
+        <li>
+            <li><a href="#challenges">Challenges and Lessons Learned</a></li>
+            <li><a href="#compliance">Compliance</a></li>
+            <li><a href="#references">References</a></li>
+        </li>
+      </ul>
+    </aside>
+  </div>
+
+  <!-- Footer section -->
+  <footer class="footer">
+    <!-- Social media links with SVG icons -->
+    <div class="social-icons">
+      <!-- GitHub link -->
+      <a href="https://github.com/Ok1tha" class="icon-hover" aria-label="GitHub">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
+        </svg>
+      </a>
+
+      <!-- LinkedIn link -->
+      <a href="https://lk.linkedin.com/in/okitha-sandiv-655704353" class="icon-hover" aria-label="LinkedIn">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
+        </svg>
+      </a>
+
+      <!-- Email link -->
+      <a href="mailto:okitha1sandiv@gmail.com" class="icon-hover" aria-label="Email">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 12.713l-11.985-9.713h23.97l-11.985 9.713zm0 2.574l-12-9.725v15.438h24v-15.438l-12 9.725z"/>
+        </svg>
+      </a>
+
+      <!-- Instagram link -->
+      <a href="https://www.instagram.com/__.sand_iv.__/" class="icon-hover" aria-label="Instagram">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
+          <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+        </svg>
+      </a>
+    </div>
+    
+    <!-- Page editor links for team members -->
+    <div class="team-members">
+      <a href="pageEditor_ST1.html" class="fname">Imanjith</a> |
+      <a href="pageEditor_ST2.html" class="fname">Okitha</a> |
+      <a href="pageEditor_ST3.html" class="fname">Rushen</a> |
+      <a href="pageEditor_ST4.html" class="fname">Saleem</a>
+    </div>
+    
+    <!-- Copyright notice -->
+    <p>
+      Copyright ©2025 | Edited by:
+      <a href="pageEditor_ST2.html" class="fname">Okitha</a>
+    </p>
+  </footer>
+
+  <!-- Back-to-top button -->
+  <a href="#top" 
+    style="
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 50px;
+      height: 50px;
+      background: #004D40;
+      color: white;
+      border-radius: 50%;
+      text-align: center;
+      line-height: 50px;
+      font-size: 1.2rem;
+      text-decoration: none;
+      z-index: 99;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    " 
+    aria-label="Go to top">
+    ↑
+  </a>
+</body>
+</html>
