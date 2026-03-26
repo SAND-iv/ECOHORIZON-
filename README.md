@@ -1,7 +1,3 @@
-Got it 👍 I’ll write you a **fresh description** for your **ECOHORIZON** repo — similar in style, but unique in wording so it’s not just a copy.
-
----
-
 # EcoHorizon 🌱 – Sustainable Future Website
 
 **EcoHorizon** is a collaborative website project designed to spread awareness and encourage action on **climate change**. The project draws inspiration from the **UN Sustainable Development Goal 13 (Climate Action)** and aims to educate users while providing engaging, interactive experiences.
